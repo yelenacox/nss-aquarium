@@ -1,0 +1,113 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background: lightcyan;
+    margin-right: 150px;
+}
+
+.pageHeader {
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 0 0 60px 0;
+    color: rgb(52, 52, 69);
+}
+
+span {
+    border-bottom: 1px gray solid;
+    padding: 0 20px;
+}
+
+.tips_container {
+    position: fixed;
+    right: 0px;
+}
+
+#tips_header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+#tips {
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    width: 150px;
+    padding: 50px 10px;
+    color: rgb(52, 52, 69);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: rgb(238, 253, 255);
+    border: 1px solid darkblue;
+}
+
+.fishes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fish_image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 10px;
+    box-shadow: 0 0 8px black;
+}
+
+.fish {
+    width: 180px;
+    height: 280px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid navy;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 69);
+    font-size: 14px;
+    background-color: rgb(249, 251, 254)
+}
+
+.quotes_container {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.quote {
+    padding: 5px;
+    font-size: large;
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.location_image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 60px;
+    border: 1px solid navy;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 69);
+    font-size: 14px;
+    background-color: rgb(249, 251, 254)
+}
+
+
+
+
+
+
+
+
