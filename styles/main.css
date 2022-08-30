@@ -42,21 +42,22 @@ span {
     border: 1px solid darkblue;
 }
 
-.fishes {
+.fishList {
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .fish_image {
-    width: 120px;
+    width: 150px;
     height: 120px;
     object-fit: cover;
     margin: 10px;
     box-shadow: 0 0 8px black;
 }
 
-.fish {
+.fish_card {
     width: 180px;
     height: 280px;
     padding: 10px;
